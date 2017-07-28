@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.zomll.myapplication.MainActivity">
+
+    <com.zomll.geometryimageview.EquilateralPolygonImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:N="3"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/a" />
+    <com.zomll.geometryimageview.EquilateralPolygonImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:N="4"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/a" />
+    <com.zomll.geometryimageview.EquilateralPolygonImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:N="5"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/a" />
+    <com.zomll.geometryimageview.EquilateralPolygonImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:N="6"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/a" />
+
+</LinearLayout>
